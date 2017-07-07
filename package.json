@@ -1,0 +1,24 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "description": "Eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iarroyo5/eslint.git"
+  },
+  "keywords": [
+    "eslint",
+    "linting",
+    "javascript"
+  ],
+  "author": "Inaki Arroyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iarroyo5/eslint/issues"
+  },
+  "homepage": "https://github.com/iarroyo5/eslint#readme"
+}
