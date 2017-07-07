@@ -46,6 +46,8 @@ I'd recommend calling the eslint script in your test script
 
 You can see all releases [here](https://github.com/iarroyo5/eslint/releases)
 
+Version must be parseable by [node-semver](https://docs.npmjs.com/misc/semver) | [GitHub](https://github.com/npm/node-semver)
+
 All version numbers should be prefixed with `v`
 
 Changes to structure / new plugins should increment the major version number
