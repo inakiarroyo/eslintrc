@@ -1,2 +1,13 @@
+# Mac files
+.DS_Store
+
 # IntelliJ project files
 .idea/
+
+# Node
+/node_modules/
+
+# Logs
+logs
+*.log*
+npm-debug.log*

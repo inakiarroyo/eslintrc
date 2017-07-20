@@ -1,0 +1,38 @@
+{
+  "name": "eslintrc",
+  "version": "1.0.0",
+  "description": "Eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint",
+    "json2yml": "json2yaml",
+    "jsonlint": "jsonlint -q",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iarroyo5/eslintrc.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "linting",
+    "javascript"
+  ],
+  "author": "Inaki Arroyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iarroyo5/eslintrc/issues"
+  },
+  "homepage": "https://github.com/iarroyo5/eslintrc#readme",
+  "dependencies": {
+    "eslint": "^4.1.1",
+    "eslint-plugin-angular": "^3.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-react": "^7.1.0"
+  },
+  "devDependencies": {
+    "json2yaml": "^1.1.0",
+    "jsonlint": "^1.6.2"
+  }
+}
