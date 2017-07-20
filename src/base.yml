@@ -1,4 +1,8 @@
 ---
+env:
+  browser: true,
+  node: true,
+  es6: true
 extends: "eslint:recommended"
 parserOptions:
   ecmaVersion: 6
@@ -20,7 +24,7 @@ rules:
   no-else-return: "error"
   no-extra-bind: "error"
   no-new-wrappers: "error"
-  no-magic-numbers: "error"
+  no-magic-numbers: "off"
   no-multi-spaces: "error"
   no-return-assign: "error"
   no-return-await: "error"
@@ -52,7 +56,7 @@ rules:
   global-require: "error"
   handle-callback-err: "error"
   no-buffer-constructor: "error"
-  eslint no-mixed-requires: "error"
+  no-mixed-requires: "error"
   no-new-require: "error"
   no-path-concat: "error"
   no-process-env: "error"
@@ -107,12 +111,15 @@ rules:
     -
       allowArrowFunctions: true
   id-blacklist:
-    - "e"
+    - "error"
     - "cb"
     - "callback"
   indent:
     - "error"
     - 2
+    -
+      "SwitchCase": 1
+      "MemberExpression": 1
   jsx-quotes:
     - "error"
     - "prefer-single"
@@ -139,7 +146,7 @@ rules:
       code: 125
       ignoreRegExpLiterals: true
   max-lines:
-    - "warning"
+    - "warn"
     -
       max: 500
       skipBlankLines: true
@@ -242,7 +249,7 @@ rules:
     - "error"
     -
       ignoreDestructuring: true
-  no-var: "error"
+  no-var: "warn"
   # object-shorthand: ?
   # prefer-arrow-callback: ?
   prefer-const: "error"
