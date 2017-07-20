@@ -4,9 +4,9 @@
   "description": "Eslint configuration",
   "main": "index.js",
   "scripts": {
+    "eslint": "eslint",
     "json2yml": "json2yaml",
     "jsonlint": "jsonlint -q",
-    "eslint": "./node_modules/.bin/eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -12,11 +12,11 @@ Or manually add this to the package.json
 
 ```json
 "devDependencies": {
-  "eslint": "git+ssh://git@github.com:iarroyo5/eslint.git#master"
+  "eslint": "git+ssh://git@github.com:iarroyo5/eslintrc.git#master"
 }
 ```
 
-Check the [releases](https://github.com/iarroyo5/eslint/releases) for the latest version.
+Check the [releases](https://github.com/iarroyo5/eslintrc/releases) for the latest version.
 
 ## Run eslint
 
@@ -34,17 +34,9 @@ And run it with
 npm run eslint
 ```
 
-I'd recommend calling the eslint script in your test script
-
-```json
-"scripts": {
-  "test": "npm run eslint && npm run mocha"
-}
-```
-
 ## Versions
 
-You can see all releases [here](https://github.com/iarroyo5/eslint/releases)
+You can see all releases [here](https://github.com/iarroyo5/eslintrc/releases)
 
 Version must be parseable by [node-semver](https://docs.npmjs.com/misc/semver) | [GitHub](https://github.com/npm/node-semver)
 
