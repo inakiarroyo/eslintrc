@@ -1,0 +1,5 @@
+---
+extends:
+  - "./src/base.yml"
+  - "./src/react.yml"
+

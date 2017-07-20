@@ -67,3 +67,7 @@ Fixes to rules that were configured incorrectly should increment the patch numbe
 ```json
 v0.0.X
 ```
+
+## References
+- https://github.com/airbnb/javascript
+- https://github.com/airbnb/javascript/tree/master/react
