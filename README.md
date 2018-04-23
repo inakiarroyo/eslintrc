@@ -1,4 +1,6 @@
 # eslint
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/iarroyo5/eslintrc.svg)](https://greenkeeper.io/)
 Eslint configuration
 
 ## Install
